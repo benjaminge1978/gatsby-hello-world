@@ -1,0 +1,67 @@
+.logo {
+    width: 100px;
+}
+
+.container-full {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    color: #FFF;
+    align-items: center;
+    background: #002756;
+    padding: 2em;
+}
+
+.contact {
+    justify-self: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blue-bg {
+    background:#5B6A85;
+    padding: 8px 0;
+}
+
+.grey-bg {
+    background:rgb(225, 225, 225);
+    padding: 8px 0 18px 0;
+}
+
+.grey-bg p {
+    margin: 3px 0 0 0;
+}
+
+.menu-items li {
+    display: inline-grid;
+    margin: 0 25px 0 0;
+}
+
+.pointers {
+    width: 100%;
+}
+
+.pointers > div{
+    width: 33%;
+    display: inline-grid;
+    justify-self: center;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+a {
+    color: #FFF;
+}
+.pointers p {
+    font-size: 0.7em;
+    color: #666666;
+}
+
+.grey-bg h5 {
+    font-size: 0.9em;
+    margin:0;
+}
+
