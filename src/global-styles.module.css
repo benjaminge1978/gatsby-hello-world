@@ -3,3 +3,14 @@
     margin: 0 auto;
     padding: 0 30px;
 }
+
+.article {
+    margin: 4em;
+}
+
+.primary-button {
+    background: #8DA978;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: #fff;
+}

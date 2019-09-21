@@ -1,0 +1,16 @@
+.blue-bg {
+    background:#5B6A85;
+    padding: 8px 0;
+}
+
+.icon-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #FFF;
+    align-items: center;
+    padding: 1em;
+}
+
+.icon-block h5 {
+    color: #FFF;
+}
