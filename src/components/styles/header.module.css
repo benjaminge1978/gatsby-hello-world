@@ -52,9 +52,13 @@
     padding: 10px 0 0 0;
 }
 
-a {
+.menu-items a {
     color: #FFF;
 }
+.menu-items ul {
+    padding-inline-start:0;
+}
+
 .pointers p {
     font-size: 0.7em;
     color: #666666;
