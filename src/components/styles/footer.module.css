@@ -8,7 +8,16 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: #FFF;
     align-items: center;
+    justify-items: center;
     padding: 1em;
+}
+
+.block-icons {
+    width: 40px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .icon-block h5 {

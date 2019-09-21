@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 import headerStyle from '../components/styles/header.module.css'
 import globalStyles from '../global-styles.module.css'
+import logo from '../img/codex-logo.svg'
 
 const Header = () => {
     return (
@@ -9,7 +10,7 @@ const Header = () => {
             <div className={headerStyle.containerFull}>
                 <div className={headerStyle.grid}>
                     <div>
-                        <h2>Codex</h2>
+                    <img className = {headerStyle.logo} src = {logo} alt= "Codex logo"></img>
                     </div>
                     <div>
                         <h3>Rettinghetsadvokater</h3>

@@ -5,5 +5,16 @@
  */
 
 module.exports = {
-  
-}
+    siteMetadata: {
+        title: `Rettinghetsadvokater`,
+      },
+      plugins: [
+        {
+          resolve: `gatsby-source-filesystem`,
+          options: {
+            name: `src`,
+            path: `${__dirname}/src/img`,
+          },
+        },
+      ],
+    }
