@@ -23,3 +23,25 @@
 .icon-block h5 {
     color: #FFF;
 }
+
+.grey-bg {
+    background:rgb(225, 225, 225);
+    padding: 8px 0 18px 0;
+}
+
+.footer-block-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #FFF;
+    align-items: center;
+    justify-items: center;
+    padding: 1em;
+}
+
+.footer-block {
+    padding: 30px;
+    background: #FFF;
+    color: #666;
+    margin:10px;
+    text-align: center;
+}
