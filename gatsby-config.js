@@ -1,6 +1,6 @@
 module.exports = {
-   siteMetadata: {
-        title: `Rettingshetsadvokater`,
-        author: `Ben Davidson`
-   },
-}
+    siteMetadata: {
+        title: `Rettingshet!`,
+        author: `Dynamic`
+      }
+  }
