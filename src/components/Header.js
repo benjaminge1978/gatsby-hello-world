@@ -16,7 +16,7 @@ const Header = () => {
                         <h3>Rettinghetsadvokater</h3>
                         <p>En del av Codex Advokat</p>
                     </div>
-                    <div class={headerStyle.contact}>
+                    <div className={headerStyle.contact}>
                         <p>Ring oss 22 93 3850</p>
                         <p>Kontakt oss</p>
                         <p>C-IPR Login</p>

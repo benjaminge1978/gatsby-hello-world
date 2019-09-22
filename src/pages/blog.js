@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../components/Layout'
 import { graphql, useStaticQuery } from 'gatsby'
 
 const BlogPage = () => {
@@ -20,8 +19,6 @@ const BlogPage = () => {
       }
     `)
 
-    console.log(data)
-
     return (
         <div>
             <h1>Blog</h1>
@@ -30,7 +27,7 @@ const BlogPage = () => {
                 return (
                   <li key ={index}>
                     <h2>{edge.node.frontmatter.title}</h2>
-                    <p></p>
+                    <p>{edge.node.frontmatter.date}</p>
                   </li>
                 )
               })}
