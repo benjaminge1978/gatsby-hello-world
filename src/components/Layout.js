@@ -12,9 +12,9 @@ const Layout = (props) => {
             <Header />
             <div className={globalStyles.container}>
                 <div className={globalStyles.article}>
-                    <Article>
+                  
                         {props.children}
-                    </Article>
+                 
                 </div>
             </div>
             <Footer />

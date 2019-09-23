@@ -14,3 +14,7 @@
     border-radius: 50px;
     color: #fff;
 }
+
+img {
+    max-width: 100%;
+}
