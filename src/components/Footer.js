@@ -49,7 +49,7 @@ const Footer = () => {
                             <p>Vi har mange dyktige advokater innen immaterielle rettigheter, it og media. Se oversikten over alle våre advokater her.</p>
                         </div>
                         <div className={footerStyles.footerBlock}>
-                            <h3>{data.site.siteMetadata.author}</h3>
+                            <h3>Footer data</h3>
                             <img src={footerImageNext} alt="Norweigan map logo"></img>
                             <p>Vi har mange dyktige advokater innen immaterielle rettigheter, it og media. Se oversikten over alle våre advokater her.</p>
                         </div>
